@@ -94,8 +94,8 @@ Class imbalance:
 ### Installation
 ```bash
 # Clone your repo
-git clone https://github.com/YOUR_USERNAME/fraud-detection-rf.git
-cd fraud-detection-rf
+git clone https://github.com/Gundananda/fraud-detection.git
+cd fraud-detection
 
 # Create env (optional)
 python -m venv .venv
@@ -199,12 +199,5 @@ This project is released under the MIT License. See LICENSE for details.
 
 ---
 
-## 👨‍💻 Authors
-Add your name(s) and links here:
-
-- [Your Name](https://github.com/YOUR_GITHUB)
-- [LinkedIn](https://www.linkedin.com/in/YOUR_PROFILE/)
-
----
 
 ⭐️ If this helped, a star would be awesome!
