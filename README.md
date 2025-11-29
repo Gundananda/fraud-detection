@@ -143,18 +143,8 @@ Update file_path inside the notebook to point to your Fraud.csv and run all cell
   - oldbalanceDest: 0.0090
   - isFlaggedFraud: 0.0008
 
-<div align="center">
 
-Add your saved figures here (place under imgs/ and update paths if needed):
 
-<img src="imgs/confusion_matrix.png" width="520"/>
-<img src="imgs/roc_curve.png" width="520"/>
-<img src="imgs/corr_heatmap.png" width="700"/>
-<img src="imgs/feature_importance.png" width="600"/>
-
-</div>
-
-Note: CV shown here evaluates the model with class_weight on the original imbalanced data. To apply SMOTE within CV without leakage, wrap SMOTE + model in an imblearn Pipeline and use cross_val_score on that pipeline.
 
 ---
 
