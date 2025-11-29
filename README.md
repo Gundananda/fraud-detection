@@ -65,7 +65,6 @@ fraud-detection-rf/
   - Engineered: errorBalanceDest = oldbalanceDest + amount − newbalanceDest
   - Dropped: nameOrig, nameDest (IDs)
 
-Note: Place the dataset at the path you set in the notebook (e.g., /content/Fraud.csv or data/Fraud.csv).
 
 ---
 
@@ -111,7 +110,6 @@ pip install pandas numpy scikit-learn imbalanced-learn matplotlib seaborn
 jupyter notebook fraud_detection.ipynb
 ```
 
-Update file_path inside the notebook to point to your Fraud.csv and run all cells.
 
 ---
 
